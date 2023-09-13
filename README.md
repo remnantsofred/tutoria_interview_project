@@ -36,7 +36,7 @@ Create a model for the Message table. This model should validate the presence of
   
 ~ Bonus points for styling ~  
 Style each message to look like screenshot below utilizing [Bootstrap]   
-~<img width="727" alt="Screenshot 2023-09-13 at 4 50 40 PM" src="https://github.com/mitchjindra413/tutoria_interview_project/assets/65314998/1fb760b2-6dc9-4856-bf43-ee4f67849131">
+<img width="727" alt="Screenshot 2023-09-13 at 4 50 40 PM" src="https://github.com/mitchjindra413/tutoria_interview_project/assets/65314998/1fb760b2-6dc9-4856-bf43-ee4f67849131">
 
 
 ## Submission Guidelines
