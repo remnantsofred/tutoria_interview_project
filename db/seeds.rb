@@ -13,20 +13,20 @@ Message.create(
 
 Message.create(
   user: "Nelly",
-  body: "Sounds great! When and where would you like to meet? I'm available most weekdays after 5 pm and weekends after 12 pm. Would you prefer to meet for coffee or grab a bite to eat?"
+  body: "I'm doing well. Please let me know what I can help you with"
 )
 
 Message.create(
-  user: "Will",
-  body: "Just finished reading an amazing book. Highly recommend it!"
+  user: "Bob",
+  body: "I'm interested to improving and practicing my Spanish."
 )
 
 Message.create(
-  user: "Sheila",
-  body: "The project deadline has been extended by one week."
+  user: "Nelly",
+  body: "Yes, we can work to improve your Spanish. When will you be available this week?"
 )
 
 Message.create(
-  user: "Woody",
-  body: "Ahoy!"
+  user: "Bob",
+  body: "Friday evening after 5PM works for me."
 )
