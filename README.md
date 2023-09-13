@@ -2,12 +2,12 @@
 You are tasked with creating a simple Rails message app that allows users to view and display messages. The app should run in the Docker environment for development. Below are the specific tasks and instructions for this assignment:
 
 ## Docker Environment Setup
-1. We will provide you with a Docker environment. Ensure that you have Docker installed and up to date.
-2. Open the Doceker app and make sure that your Docker environment is running.
+1. We will provide you with a Docker environment. Ensure that you have [Docker](https://www.docker.com/) installed and up to date.
+2. Open the Docker app and make sure that your Docker environment is running.
 3. Go to the root directory of the project.
 4. In the terminal, run ```docker compose build```.
 5. To start the application, run ```docker compose up```
-6. You should be able to see the base rails application by going to localhost:3000 in your browser.
+6. You should be able to see the base rails application by going to `localhost:3000` in your browser.
 
 ## Rails and Make Commands
 To run Rails commands, you can use Make commands.
@@ -35,6 +35,9 @@ Create a model for the Message table. This model should validate the presence of
 - The created_at timestamp of the message.
   
 ~ Bonus points for styling ~
+Style the messages view to look like screenshot below utilizing [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+![image](https://github.com/mitchjindra413/tutoria_interview_project/assets/110148438/f617d0c7-d69f-4619-a858-81ff440106ec)
+
 
 ## Submission Guidelines
 1. Fork this repository to your own Github account.
