@@ -5,6 +5,7 @@ You are tasked with creating a simple Rails message app that allows users to vie
 1. We will provide you with a Docker environment. Ensure that you have Docker installed and up to date.
 2. Open the Doceker app and make sure that your Docker environment is running.
 3. In the terminal, run ```docker compose up```.
+4. You should be able to see the base rails application by going to localhost:3000 in your browser
 
 ## Rails and Make Commands
 To run Rails commands, you can use Make commands.
@@ -30,6 +31,8 @@ Create a model for the Message table. This model should validate the presence of
 - The name of the sender.
 - The body of the message.
 - The created_at timestamp of the message.
+  
+~ Bonus points for styling ~
 
 ## Submission Guidelines
 1. Fork this repository to your own Github account.
