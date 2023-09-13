@@ -1,4 +1,4 @@
-rails_container_name = 'tutoria_web'
+rails_container_name = 'tutoria_interview'
 
 shell:
 	docker exec -it $(rails_container_name) bash
