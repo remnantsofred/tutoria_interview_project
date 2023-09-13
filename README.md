@@ -28,3 +28,4 @@ You are tasked with creating a simple Rails message app that allows users to vie
 ## Submission Guidelines
 1. Fork this repository to your own Github account.
 2. Implement the assignment following the instructions provided.
+3. Show this assignment during the interview. We will send you a separate email to shcedule an interview. 
