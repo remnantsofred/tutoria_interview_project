@@ -3,16 +3,16 @@ You are tasked with creating a simple Rails message app that allows users to vie
 
 ## Docker Environment Setup
 1. We will provide you with a Docker environment. Ensure that you have Docker installed and up to date.
-2. Run ```docker compose up```
+2. Open the Doceker app and make sure that your Docker environment is running.
+3. In the terminal, run ```docker compose up```.
 
 ## Rails and Make Commands
-To run rails commands, you can do use make commands.
-1. In separate terminal, run ```make shell``` (this way you don't need to keep typing `docker exec -ti tutoria_web`)
-2. Run Rails commands inside the make shell, e.g. ```rails db:migrate```, ```rails db:seeds```
+To run Rails commands, you can use Make commands.
+1. In separate terminal, run ```make shell```
+2. Run Rails commands inside the make shell, e.g. ```rails db:migrate```, ```rails db:seeds```.
 
-## Rails App Setup
-1. Initialize a new Rails application in the provided Docker environment.
-2. Create the database table called ```messages``` with the following criteria. Use Rails migration for this task:
+## Schema
+Create the database table called ```messages``` with the following criteria. Use Rails migration for this task:
 
 | Column                       | Validation              | Example                         |
 | ---------------------------- | ----------------------- | ------------------------------- |
@@ -21,7 +21,7 @@ To run rails commands, you can do use make commands.
 | created_at: date time object |                         | Wed, 13 Sep 2023 00:00:00 +0000 |
 
 ## Model
-1. Create a model for the Message table. This model should validate the presence of the user, the body, and additional validations mentioned above.
+Create a model for the Message table. This model should validate the presence of the user, the body, and additional validations mentioned above.
 
 ## Controller and Views
 1. Generate a controller named ```Messages``` with actions for displaying all messages.
@@ -34,3 +34,4 @@ To run rails commands, you can do use make commands.
 ## Submission Guidelines
 1. Fork this repository to your own Github account.
 2. Implement the assignment following the instructions provided.
+3. Show this assignment during the interview. We will send you a separate email for scheduling an interview. Be prepared to discuss this assignment during the interview.
