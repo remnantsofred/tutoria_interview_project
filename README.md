@@ -1,31 +1,26 @@
-# Assignment Overview
-You are tasked with creating a simple Rails message app that allows users to view and display messages. The app should run in the Docker environment for development. Below are the specific tasks and instructions for this assignment:
+# README
 
-## Docker Environment Setup
-1. We will provide you with a Docker environment. Ensure that you have Docker installed on your machine.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Rails App Setup
-1. Initialize a new Rails application in the provided Docker environment.
-2. Create the database table called “messages” with the following criteria. Use Rails migration for this task:
-   
-| Column                       | Validation              | Example                         |
-| ---------------------------- | ----------------------- | ------------------------------- |
-| user: string                 | min length of 3 chars   | “Bob”                           |
-| body: string                 | max length of 250 chars | “Hello!”                        |
-| created_at: date time object |                         | Wed, 13 Sep 2023 00:00:00 +0000 |
+Things you may want to cover:
 
-## Model
-1. Create a model for the Message table. This model should validate the presence of the user, the body, and additional validations mentioned above.
+* Ruby version
 
-## Controller and Views
-1. Generate a controller named Messages with actions for displaying all messages.
-2. Create a view to display all messages. The view should be sorted by the name attribute in ascending order.
-3. Each message should be displayed as a card includes the following details:
-- The name of the sender.
-- The body of the message.
-- The created_at timestamp of the message.
+* System dependencies
 
-## Submission Guidelines
-1. Fork this repository to your own Github account.
-2. Implement the assignment following the instructions provided.
-3. Show this assignment during the interview. We will send you a separate email to shcedule an interview. 
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+# tutoria_interview_project
+# tutoria_interview_project
