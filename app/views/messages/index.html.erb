@@ -1,0 +1,17 @@
+<h1>Messages</h1>
+
+<ul>
+  <% @messages.each do |message| %>
+    <li class='message-card'>
+      <%= message.user %>
+      <div>
+        <%= message.created_at %>
+      </div>
+      <p class='message-body'>
+        <%= message.body %>
+      </p>
+    </li>
+
+  <% end %>
+
+</ul>
