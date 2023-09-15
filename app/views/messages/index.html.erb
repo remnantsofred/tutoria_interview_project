@@ -5,15 +5,33 @@
 
 <ul>
   <% @messages.each do |message| %>
-    <li class='message-card'>
-      <%= message.user %>
-      <div>
-        <%= message.created_at %>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+          <h4><%= message.user %></h4>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"><%= message.created_at %></h5>
+            <p class="card-text"><%= message.body %></p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
       </div>
-      <p class='message-body'>
-        <%= message.body %>
-      </p>
-    </li>
+    </div>
+
+
+
+    <%# <li class='message-card'>
+      <%#= message.user %>
+      <%# <div> %>
+        <%#= message.created_at %>
+      <%# </div> %>
+      <%# <p class='message-body'> %>
+        <%#= message.body %>
+      <%# </p> %>
+    <%# </li>  %>
 
   <% end %>
 
