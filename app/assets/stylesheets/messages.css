@@ -1,4 +1,37 @@
-.message-card {
-  border: 1px green solid;
-  list-style: none;
+.btn-round {
+  border-radius: 50%;
+}
+
+.small-text-blue {
+  color: deepskyblue;
+  font-size: 0.75rem;
+}
+
+.no-border {
+  border: none;
+}
+
+.gray-border-rounded {
+  border: solid 1.5px #e2dede;
+  border-radius: 12px;
+  padding: 0.75rem;
+}
+
+.card-body {
+  min-width: 500px;
+  width: 500px;
+}
+
+.col-md-4 {
+  width: 8%;
+}
+
+.sender-name {
+  font-size: 1rem;
+  margin-top: 4px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+  --bs-card-spacer-y: 0;
 }
