@@ -1,9 +1,11 @@
 .btn-round {
   border-radius: 50%;
+  width: 38px;
+  height: 38px;
 }
 
 .small-text-blue {
-  color: deepskyblue;
+  color: #1db3e4;
   font-size: 0.75rem;
 }
 
@@ -18,12 +20,16 @@
 }
 
 .card-body {
-  min-width: 500px;
-  width: 500px;
+  min-width: 555px;
+  width: 555px;
 }
 
 .col-md-4 {
   width: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .sender-name {
@@ -44,4 +50,8 @@
 
 .messages-h1 {
   margin: 2rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
 }
