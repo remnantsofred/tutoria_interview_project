@@ -1,37 +1,28 @@
 <%= stylesheet_link_tag "messages.css" %>
 
 
-<h1>Messages</h1>
+<h1 class="messages-h1">Messages</h1>
 
-<ul>
+<ul class="messages-ul">
   <% @messages.each do |message| %>
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3 no-border" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
-          <h4><%= message.user %></h4>
+          <button type="button" class="btn btn-secondary btn-round"><%= message.user[0] %></button>
+          <%# <img src="..." class="img-fluid rounded-start" alt="..."> %>
+          <h4 class="sender-name"><%= message.user %></h4>
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title"><%= message.created_at %></h5>
-            <p class="card-text"><%= message.body %></p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title small-text-blue">
+              <%= message.created_at.strftime("%b %d, %Y, %l:%M") %>
+            </h5>
+            <p class="card-text gray-border-rounded"><%= message.body %></p>
+            <%# <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> %>
           </div>
         </div>
       </div>
     </div>
-
-
-
-    <%# <li class='message-card'>
-      <%#= message.user %>
-      <%# <div> %>
-        <%#= message.created_at %>
-      <%# </div> %>
-      <%# <p class='message-body'> %>
-        <%#= message.body %>
-      <%# </p> %>
-    <%# </li>  %>
 
   <% end %>
 
