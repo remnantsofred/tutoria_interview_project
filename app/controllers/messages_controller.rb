@@ -1,11 +1,9 @@
 class MessagesController < ApplicationController
 
   def index
-    @messages = Message
-      .all
-      .order("user ASC")
+    @messages = Message.all.order("user DESC")
     
-    print(@messages)
+    @messages = @messages.sort { |a, b| a.user <=> b.user }
     render :index
   end 
 
