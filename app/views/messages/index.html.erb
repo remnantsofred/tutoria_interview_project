@@ -1,5 +1,6 @@
 <%= stylesheet_link_tag "messages.css" %>
 
+<% @messages = @messages.sort { |a, b| a.user <=> b.user } %>
 
 <h1 class="messages-h1">Messages</h1>
 
@@ -9,7 +10,6 @@
       <div class="row g-0">
         <div class="col-md-4">
           <button type="button" class="btn btn-secondary btn-round"><%= message.user[0] %></button>
-          <%# <img src="..." class="img-fluid rounded-start" alt="..."> %>
           <h4 class="sender-name"><%= message.user %></h4>
         </div>
         <div class="col-md-8">
@@ -18,7 +18,6 @@
               <%= message.created_at.strftime("%b %d, %Y, %l:%M") %>
             </h5>
             <p class="card-text gray-border-rounded"><%= message.body %></p>
-            <%# <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> %>
           </div>
         </div>
       </div>
